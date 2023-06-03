@@ -1,0 +1,75 @@
+
+.navbar-brand{
+    font-weight: bold;
+}
+.navbar-nav .nav-item{
+    margin-left: 2rem;
+}
+
+.carousel-caption{
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+@media (min-weight:1200px){
+.container, .container-lg, .container-md .container-sm .container-xl{
+    max-width: 1293px;
+}
+}
+@media (min-weight:1200px){
+#newArrival .container, #newArrival .containerlg, 
+#newArrival .container-md, #newArrival .container-sm, #newArrival .container-xl{
+    max-width: 1293px;
+}
+}
+       
+      
+.carousel-caption{
+    bottom: 19.25rem;
+}
+.carousel-caption h2{
+    font-size: 4rem;
+}
+.btn-style{
+    padding: 1rem, 3rem;
+}
+
+/*Product-Section*/
+#product{
+    margin-top: 2rem;
+}
+
+.cardstyle{
+    border: none;
+    margin: 3rem;
+}
+
+/*Double Column Style*/
+
+.singleCol{
+    position: relative;
+}
+
+.caption{
+    position: absolute;
+    bottom: 200px;
+    margin-left: 3rem;
+}
+.caption{
+    font-size: 1.5rem;
+}
+
+footer{
+    background-color: #1D2547;
+}
+
+.columnContent{
+    list-style: none;
+    padding: 0;
+}
+
+.columnContent ul li{
+    padding-bottom: 1rem;
+}
